@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrepreneur Portfolio</title>
+  <link rel="stylesheet" href="project.css">
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <nav>
+    <h1>My Portfolio</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#startup">Startups</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle">☰</button>
+  </nav>
+
+  <header>
+    <img src="IMG_20250913_094834.png" alt="About Me">
+    <h2>I'm Yashvanth Kumar V</h2>
+    <p>Entrepreneur | Innovator | Dream Builder</p>
+  </header>
+
+  <section id="about" class="about">
+    <img src="IMG_20250913_094834.png" alt="About Me">
+    <div>
+      <h2><span>About</span> Me</h2>
+      <div class="about-content">
+        <p>Hello! I'm Yashvanth Kumar, a passionate entrepreneur driven by the desire to create innovative
+          solutions. With a strong background in business strategy and product design, I thrive on turning ideas
+          into impactful ventures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2><span>My</span> Skills</h2>
+    <div class="skills">
+      <div class="skill-box"><h3>Business Strategy</h3></div>
+      <div class="skill-box"><h3>Leadership</h3></div>
+      <div class="skill-box"><h3>Product Design</h3></div>
+      <div class="skill-box"><h3>Marketing</h3></div>
+      <div class="skill-box"><h3>Coding</h3></div>
+    </div>
+  </section>
+
+  <section id="startup">
+    <h2><span>My</span> Startups</h2>
+    <div class="startup">
+      <div class="startup-card">
+        <h3>Startup A</h3>
+        <p>A tech startup revolutionizing digital marketplaces.</p>
+      </div>
+      <div class="startup-card">
+        <h3>Startup B</h3>
+        <p>A green initiative promoting eco-friendly solutions worldwide.</p>
+      </div>
+      <div class="startup-card">
+        <h3>Startup C</h3>
+        <p>An education-based company empowering youth through innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2><span>Contact</span> Me</h2>
+    <p>Feel free to reach out through the form or via my social links below.</p>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage" style="display:none; font-weight:bold; margin-top:1rem;">
+      Your message has been sent successfully!
+    </p>
+
+    <div class="social-links">
+      <a href="mailto:yashvanth12197@gmail.com">Email Me</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 | All Rights Reserved</p>
+  </footer>
+  <script src="portfolio.js"></script>
+</body>
+</html>
